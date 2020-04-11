@@ -14,7 +14,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.st_main ul.st_tabs {
+.st_main > ul.st_tabs {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -31,7 +31,7 @@
   margin-right: 5px;
   cursor: pointer;
 }
-.st_main ul.st_content {
+.st_main > ul.st_content {
   list-style: none;
   padding: 0;
   margin: 0;
