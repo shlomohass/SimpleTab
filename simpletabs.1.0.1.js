@@ -55,15 +55,15 @@
       tabSizing : { paddingLeft : 30, paddingRight : 30, paddingTop : 30, paddingBottom : 30 },
       tabDesign : {
         background : [""],
-        color  		 : [""],
+        color  	   : [""],
         padding    : [""],
         fontSize   : [""],
         fontWeight : [""],
         border     : ["1px solid black"],
       },
       contentDesign : {
-        background : "",
-        border     : "1px solid black"
+        background  : "",
+        border      : "1px solid black"
       }
     },
     struct = {
@@ -91,7 +91,7 @@
     this._struct.ele_tabs_container = this.$element.find(".st_tabs");
     this._struct.ele_tabs = this._struct.ele_tabs_container.find("li");
     this._struct.ele_content_container = this.$element.find(".st_content");
-    this._struct.ele_content = this._struct.ele_content_container.find("li");
+    this._struct.ele_content = this._struct.ele_content_container.children("li");
     //Set content area:
     this._struct.ele_content_container.css(this.options.contentDesign);
     //Set content width:
