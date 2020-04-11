@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------------------------------------------------------------------------ 
+ * Simple Tab - SimTab
+ * Simple jQuery plugin to create quick and easy content tabs - Light weight and easy to modify.
+ * Copyright (c) 219 - SikTec, Inc. All Rights Reserved.
+ * Author : Shlomo Hassid, Shlomohassid@gmail.com
+ * Created : Feb, 2020.
+ * Version : 1.0.1
+ * ---------------------------------------------------------------------------------------------------------------------------  */
+
+.st_show { /* Edit this for selected tab styling */
+  color: red !important;
+}
+.st_main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.st_main ul.st_tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  margin-bottom: 5px;
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+.st_main ul.st_tabs > li {
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid black;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.st_main ul.st_content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+.st_main ul.st_content > li {
+  position: absolute;
+  background-color: white;
+}
